@@ -1,29 +1,24 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import './ProductionTeamPage.css';
-import team3 from '../img/team3.PNG';
-import team4 from '../img/team4.PNG';
-import img5 from '../img/5.PNG';
-import img6 from '../img/6.PNG';
-import img7 from '../img/7.PNG';
+import './ProductionTeamPage.css'
 
 function ProductionTeamPage() {
   const [features] = useState([
     {
       id: 1,
-      imgSrc: img5,
+      imgSrc: "img/5.PNG",
       altText: "Modular kitchen cabinet at Guagua Pampanga",
       description: "Another done Modular kitchen cabinet @ Guagua pampanga.",
     },
     {
       id: 2,
-      imgSrc: img6,
+      imgSrc: "img/6.PNG",
       altText: "Modular kitchen cabinet installation at Senura, Porac Pampanga",
       description: "Ongoing modular kitchen cabinet installation at Senura, Porac Pampanga.",
     },
     {
       id: 3,
-      imgSrc: img7,
+      imgSrc: "img/7.PNG",
       altText: "Wall cladding, PVC ceiling, floor vinyls and tiling expert",
       description: "We are also expert in wall cladding,pvc ceiling, floor vinyls and tiling.",
     },
@@ -32,18 +27,17 @@ function ProductionTeamPage() {
   const [teamMembers] = useState([
     {
       id: 1,
-      imgSrc: team3,
+      imgSrc: "img/team3.PNG",
       altText: "Production team member",
     },
     {
       id: 2,
-      imgSrc: team4,
+      imgSrc: "img/team4.PNG",
       altText: "Production team member",
     },
   ]);
 
   return (
-    <>
     <div id="features" className="offset">
         <Container fluid>
           <h3 className="text-center mb-4">Our Works</h3>
@@ -89,10 +83,8 @@ function ProductionTeamPage() {
             </Row>
           </Container>
       </div>
-    </div> 
-    </>
+    </div>
   );
 }
 
 export default ProductionTeamPage;
-
