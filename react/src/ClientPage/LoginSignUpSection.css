@@ -1,0 +1,43 @@
+/* Add this to your PaymentPage.css file */
+
+.form-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .form-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-container .form-label {
+    font-weight: bold;
+  }
+  
+  .form-container .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .form-container button[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .form-container .toggle-btn {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .form-container .toggle-btn a {
+    color: #007bff;
+  }
+  
