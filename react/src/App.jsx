@@ -12,6 +12,7 @@ import ProjectPage from './ClientPage/ProjectPage';
 import SignInPage from './ClientPage/LoginSignUpSection';
 import PaymentPage from './ClientPage/PaymentPage';
 import { Container } from 'react-bootstrap';
+import './App.css';
 
 function App() {
 return (
