@@ -13,6 +13,7 @@ import SignInPage from './ClientPage/LoginSignUpSection';
 import PaymentPage from './ClientPage/PaymentPage';
 import { Container } from 'react-bootstrap';
 import './App.css';
+import './index.css';
 
 function App() {
 return (
