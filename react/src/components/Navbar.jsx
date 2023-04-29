@@ -51,6 +51,7 @@ const NavBar = () => {
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
+        <LinkContainer to ="/adminLogin"></LinkContainer>
       </Container>
     </Navbar>
   );
